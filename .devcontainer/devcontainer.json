@@ -1,0 +1,16 @@
+{
+      "name": "poc",
+      "image": "mcr.microsoft.com/devcontainers/python:3.11",
+      "features": {
+          "ghcr.io/devcontainers-contrib/features/poetry:2": {}
+      },
+      "customizations": {
+          "vscode": {
+              "extensions": [
+                  "ms-toolsai.jupyter",
+                  "ms-python.python"
+              ]
+          }
+      },
+      "postCreateCommand": "poetry install"
+}
